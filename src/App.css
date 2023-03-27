@@ -7,6 +7,127 @@
   pointer-events: none;
 }
 
+.header-segment{
+ font-size: 1.5rem;
+ background-color: #61dafb;
+ text-align: left;
+ padding: 30px;
+ color: white;
+}
+
+.header-segment-hide{
+  color: white;
+  font-size: 1.5rem;
+  background-color: #61dafb;
+  text-align: left;
+  padding: 30px;
+  position: absolute;
+  top:0px;
+}
+.delete-button{
+  height: 30px;
+  width: 30px;
+  position: relative;
+    background-color: rgb(237, 249, 253);
+    margin: 5px
+}
+.div-delete{
+  display: flex;
+}
+.save-button{
+  background-color: green;
+  margin: 10px;
+  font-size: 10px;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: 600;
+  border: none;
+  color: white;
+}
+.cancel-button{
+  font-size: 10px;
+  border-radius: 5px;
+  height: 30px;
+  font-weight: 600;
+  border: none;
+  color: #7c031d;
+}
+.segment-input{
+  height: 30px;
+  width: 300px;
+}
+.blur-background{
+  background-color: #2f3135;
+  z-index: 1;
+  width: 50%;
+}
+.footer{
+  display: block;
+  position: relative;
+  margin-top: 20%;
+  background-color: #f3f5f5;
+  height: 80px;
+}
+.dot-container{
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  position: relative;
+  left: 48%;
+}
+.selected-schema{
+  height: 30px;
+  width: 250px;
+  border-radius: 3px;
+  margin: 5px;
+}
+.minus-symbol{
+  height: 3px;
+  width: 18px;
+  background-color: #282c34;
+  border-radius: 5px;
+  position: relative;
+  top: 45%;
+  left: 23%;
+}
+.segment-container{
+  border: 3px solid #61dafb;
+  max-width: 300px;
+}
+.point-text{
+  position: relative;
+  top:-13px;
+   left: 18px;
+   font-size: 10px;
+}
+.circle-pink{
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  background-color: rgb(18, 250, 69);
+  border-radius: 50%;
+}
+.circle-blue{
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  background-color: rgb(170, 5, 148);
+  border-radius: 50%;
+}
+.segment-button-in{
+  height: 50px;
+  width: 150px;
+  border: 2px solid white;
+  color: white;
+}
+
+.segment-button{
+  position: absolute;
+  left:10%;
+  margin-top: 2%;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
